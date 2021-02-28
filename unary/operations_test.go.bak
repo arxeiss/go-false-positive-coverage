@@ -1,0 +1,16 @@
+package unary_test
+
+import (
+	"testing"
+
+	. "github.com/arxeiss/go-false-positive-coverage/unary"
+)
+
+func TestAbs(t *testing.T) {
+	if res := Abs(4.5); res != 4.5 {
+		t.Errorf("Expected result to be 4.5, got %f", res)
+	}
+	if res := Abs(-2.3); res != 2.3 {
+		t.Errorf("Expected result to be 2.3, got %f", res)
+	}
+}

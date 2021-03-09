@@ -3,6 +3,10 @@
 The basic `go test` with cooperation with `go tool cover` can measure and show overall Code coverage of your code.
 However the result can be false positive and show **much higher percentage** of covered code that actually is.
 
+## ✍️ Readme more
+
+Read more why and how the code coverage is measured. I published the article in English on [Dev.to](https://dev.to/arxeiss/false-positive-go-code-coverage-3k7j) or in Czech on [kutac.cz](https://www.kutac.cz/pocitace-a-internety/falesne-pozitivni-code-coverage-v-go).
+
 ## Try it yourself
 
 Clone this repo and try all 3 cases:
